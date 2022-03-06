@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,400;0,900;1,300;1,400&display=swap');
+
+:root{
+  --navbackground:#2f3240;
+  --background-color:#010103;
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins' Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+  font-family:'poppins', sans-serif;
+  background-color: var(--background-color);
+  overflow: scroll;
+  font-size: 1.3rem;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.contact{
+  position: relative;
+  min-height: 100vh ;
+  padding: 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
+}
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+.row2{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.home-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.home{
+min-height: 100vh;
+padding: 15px;
+}
+.home .full-screen{
+  min-height: 77vh;
+}
+.home .content-home{
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.home .content-home .block{
+flex: 0 0 75%;
+max-width: 75%;
+padding-left: 35px;
+border-left: 5px solid aqua;
+margin-top: 50px;
+
+}
+
+.home .content-home .block h6{
+  color:#fff ;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+
+}
+.home .content-home .block h1{
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+
+}
+.home .content-home .block h3{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.home .content-home .block .cv-btn {
+padding-top:20px;
+
+}
+
+.home .content-home .block .cv-btn a{
+border-radius: 4px;
+color: #fff;
+border:1px solid #fff;
+padding: 12px 25px;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 600;
+transition: all .5s ease;
+background-color: transparent;
+}
+
+.home .content-home .block .cv-btn a:hover{
+  background: #fff;
+  color: #000;
+
+}
+
+
+
+
+
+
+
+
+.contact .content h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content p{
+  font-weight: 300;
+  color: #fff;
+  font-size: 26px;
+  background: #000;
+}
+.container1{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.container{
+width: 100% ;
+display: flex;
+justify-content: center;
+align-items: center; 
+margin-top: 30px ;
+
+}
+.container .contactinfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: var(--navbackground);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.container .contactinfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+
+}
+
+.container .contactinfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactinfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactinfo .box .text h3{
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  background: #fff ;
+}
+
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 20px;  
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none; 
+  resize: none;  
+}
+
+
+
+
+
+.contactForm .inputBox input[type="submit"]{
+   width: 100px;
+   background: #00bcd4;
+   color: #fff ;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 18px ;
+}
+
+
+/*footer*/
+.footer{
+  color: #fff;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+.footer p{
+  color: #00bcd4;
+
+}
+.footer h3{
+  color: #fff;
+  margin-bottom:20px;
+
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3,  .footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+
+}
+
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+
+}
+
+.footer-col-3,  .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+
+
+.app-logo{
+  margin-top: 20px;
+}
+
+.app-logo img{
+  width: 120px;
+}
+
+.footer hr{
+  border: none;
+  background: #fff;
+  height: 1px;
+  margin: 20px 0;
+}
+.copy-right{
+  text-align: center;
+}
+/*end of footer*/
+
+
+
+@media (max-width:991px){
+.contact{
+padding: 50px;
+}
+
+.container{
+  flex-direction: column;
+}
+
+.container .contactinfo,
+.container .contactinfo .contactForm{
+  margin-bottom: 40px ;
+  width: 100%;
+  padding: 50px;
+} 
+
+}
