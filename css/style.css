@@ -134,7 +134,7 @@ background-color: transparent;
 
 
 
-
+/* contact */
 
 
 .contact .content h2{
@@ -245,7 +245,7 @@ margin-top: 30px ;
    padding: 10px;
    font-size: 18px ;
 }
-
+/* end contact inputs */
 
 /*footer*/
 .footer{
@@ -310,6 +310,7 @@ margin-top: 30px ;
 }
 /*end of footer*/
 
+/* media quries  */
 
 
 @media (max-width:991px){
